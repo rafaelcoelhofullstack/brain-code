@@ -1,5 +1,9 @@
 function invertElements(array) {
-  // escreva seu código aqui
+  let arrayInvertido = []
+  for(let i = 1; i <= array.length; i++){
+    arrayInvertido.push(array[array.length - i])
+  }
+  return arrayInvertido;
 }
 
 module.exports = {
